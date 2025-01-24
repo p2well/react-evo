@@ -1,4 +1,6 @@
 import type { Config } from "tailwindcss";
+import colors from "tailwindcss/colors";
+import daisyui from "daisyui";
 
 export default {
   content: [
@@ -11,8 +13,9 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        primary: colors.sky,
       },
     },
   },
-  plugins: [],
+  plugins: [daisyui],
 } satisfies Config;
