@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function Home() {
   return (
-    <div className="flex justify-between">
+    <div className="content-center">
       <Image
         className="dark:invert"
         src="/next.svg"
